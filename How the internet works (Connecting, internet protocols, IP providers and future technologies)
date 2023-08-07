@@ -6,6 +6,16 @@
 <meta name="keywords" content="html tutorial template">
 </head>
 <body>
-Content goes here.
+The Internet Protocol (IP) is the protocol that describes how to route messages from one computer to another computer on the network. Each message is split up into packets, and the packets hop from router to router on the way to their destination.
+
+Step 1: Send packet to router
+Computers send the first packet to the nearest router. A router is a type of computing device used in computer networks that helps move the packets along. For example, the modem you have at home or in the office.
+Step 2: Router receives packet
+When the router receives a packet, it looks at its IP header. The most important field is the destination IP address, which tells the router where the packet wants to end up.
+Step 3: Router forwards packet
+The router has multiple paths it could send a packet along, and its goal is to send the packet to a router that's closer to its final destination.
+Step 4: Final router forwards message
+If all goes well, the packet should eventually arrive at a router that knows exactly where to send it. The router can now send the message to the destination IP address, which is the device you are using to view this summary. 
+
 </body>
 </html>

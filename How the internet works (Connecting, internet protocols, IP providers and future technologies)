@@ -3,7 +3,7 @@
 <head>
 <title>How the Internet Works</title>
 <meta name="and a description of ip" content="Mason's page">
-<meta name="keywords" content="html tutorial template">
+<meta name="Internet Protocols">
 </head>
 <body>
 The Internet Protocol (IP) is the protocol that describes how to route messages from one computer to another computer on the network. Each message is split up into packets, and the packets hop from router to router on the way to their destination.

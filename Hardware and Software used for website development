@@ -1,35 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Computer Hardware and Explanations</title>
+    <title>Computer Hardware Overview</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        h1 {
+            color: #333333;
+        }
+        
         h2 {
-            margin-top: 20px;
+            color: #555555;
+        }
+        
+        p {
+            color: #777777;
         }
     </style>
 </head>
 <body>
-    <h1>Computer Hardware and Explanations</h1>
-    
-    <h2>CPU (Central Processing Unit)</h2>
-    <p>The CPU is the "brain" of the computer, responsible for executing instructions and performing calculations.</p>
-    
-    <h2>GPU (Graphics Processing Unit)</h2>
-    <p>The GPU handles graphics rendering and is crucial for tasks like gaming and video editing.</p>
-    
-    <h2>Memory</h2>
-    <p>Memory (RAM) stores data that the CPU is actively using, allowing for quick access and multitasking.</p>
-    
-    <h2>Storage</h2>
-    <p>Storage devices (like SSDs and HDDs) hold your files, applications, and the operating system.</p>
-    
-    <h2>Motherboard</h2>
-    <p>The motherboard connects all hardware components, allowing them to communicate and work together.</p>
-    
-    <h2>Power Supply</h2>
-    <p>The power supply unit provides electricity to all components, ensuring proper functioning.</p>
-    
-    <h2>Case</h2>
-    <p>The computer case houses all components, protecting them and providing cooling through fans and ventilation.</p>
+    <div class="container">
+        <h1>Computer Hardware Overview</h1>
+        
+        <h2>CPU (Central Processing Unit)</h2>
+        <p>The brain of the computer, responsible for executing instructions and calculations.</p>
+        
+        <h2>GPU (Graphics Processing Unit)</h2>
+        <p>Handles graphics rendering, essential for gaming and video editing.</p>
+        
+        <h2>Memory</h2>
+        <p>Stores active data for quick access, enabling multitasking and smooth performance.</p>
+        
+        <h2>Storage</h2>
+        <p>Holds files, applications, and the OS, providing long-term data storage.</p>
+        
+        <h2>Motherboard</h2>
+        <p>Connects and enables communication between all hardware components.</p>
+        
+        <h2>Power Supply</h2>
+        <p>Provides electricity to ensure all components function correctly.</p>
+        
+        <h2>Case</h2>
+        <p>Houses and protects components while providing cooling and ventilation.</p>
+    </div>
 </body>
 </html>

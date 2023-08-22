@@ -121,23 +121,7 @@
             transform: skewY(-2deg);
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
         }
-        .header-decor {
-            position: absolute;
-            width: 100%;
-            height: 200px;
-            background-color: #3498db;
-            z-index: -1;
-        }
-
-        .header-decoration {
-            position: absolute;
-            top: 0px;
-            left: 10%;
-            width: 80%;
-            height: 45px;
-            background-color: rgba(255, 255, 255, 0.1);
-            transform: skewY(-2deg);
-            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        
     </style>
     <script>
         // ... (your previous JavaScript code) ...

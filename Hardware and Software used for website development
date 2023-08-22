@@ -1,60 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Computer Hardware Overview</title>
+    <title>Interactive Computer Hardware Showcase</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .header {
             text-align: center;
-            background-color: #f4f4f4;
+            padding: 30px;
+            background-color: #333333;
+            color: #ffffff;
         }
         
         .container {
-            max-width: 600px;
+            max-width: 800px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 40px;
             background-color: #ffffff;
             border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
         }
         
         h1 {
             color: #333333;
+            margin-bottom: 20px;
         }
         
         h2 {
-            color: #555555;
+            color: #ff6b6b;
+            margin-top: 20px;
         }
         
         p {
+            color: #555555;
+            line-height: 1.6;
+        }
+        
+        .hardware-item {
+            margin-top: 40px;
+            text-align: center;
+        }
+        
+        .hardware-image {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+            border-radius: 50%;
+            background-color: #ff6b6b;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .hardware-name {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #333333;
+        }
+        
+        .hardware-description {
             color: #777777;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
+    <div class="header">
+        <h1>Interactive Computer Hardware Showcase</h1>
+        <p>Explore the components that power your computer!</p>
+    </div>
+    
     <div class="container">
-        <h1>Computer Hardware Overview</h1>
-        
         <h2>CPU (Central Processing Unit)</h2>
-        <p>The brain of the computer, responsible for executing instructions and calculations.</p>
+        <div class="hardware-item">
+            <div class="hardware-image">
+                <img src="cpu-icon.png" alt="CPU Icon" style="width: 100px; height: 100px;">
+            </div>
+            <div class="hardware-name">CPU</div>
+            <div class="hardware-description">The brain of the computer, executing instructions and calculations.</div>
+        </div>
         
-        <h2>GPU (Graphics Processing Unit)</h2>
-        <p>Handles graphics rendering, essential for gaming and video editing.</p>
+        <!-- Repeat the hardware-item structure for other components -->
         
-        <h2>Memory</h2>
-        <p>Stores active data for quick access, enabling multitasking and smooth performance.</p>
-        
-        <h2>Storage</h2>
-        <p>Holds files, applications, and the OS, providing long-term data storage.</p>
-        
-        <h2>Motherboard</h2>
-        <p>Connects and enables communication between all hardware components.</p>
-        
-        <h2>Power Supply</h2>
-        <p>Provides electricity to ensure all components function correctly.</p>
-        
-        <h2>Case</h2>
-        <p>Houses and protects components while providing cooling and ventilation.</p>
     </div>
 </body>
 </html>

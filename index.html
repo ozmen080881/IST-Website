@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>document.addEventListener('DOMContentLoaded', function () {
+  const moreInfoButton = document.getElementById('more-info-button');
+  const moreInfoPopup = document.getElementById('more-info-popup');
+
+  moreInfoButton.addEventListener('click', function () {
+    moreInfoPopup.style.display = moreInfoPopup.style.display === 'block' ? 'none' : 'block';
+  });
+
+  window.addEventListener('click', function (event) {
+    if (!moreInfoButton.contains(event.target)) {
+      moreInfoPopup.style.display = 'none';
+    }
+  });
+});
+</script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Quest</title>
+</head>
+<header>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="hardware.html">Hardware</a></li>
+         <li><a href="internet.html">Internet</a></li>
+        <li><a href="https://youtube.com/clip/Ugkx30p8QBdrBQZrfdUKmFZ5jx1QQk4d1pdX" target="_blank">Contact</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="reference.html">Media Reference</a></li>
+        <li><a href="securityandprivacy.html">Security and Privacy</a></li>
+        <li><a href="Arpanet to WWW.html">Arpanet to WWW timeline</a></li>
+        <li><a href="Styles and Clientele.html">S and C</a></li>
+      </ul>
+    </nav>
+    </header>
+      <main>
+      </main>
+  </header>
+  <main>
+  <section class="hero">
+    <h2>Welcome to Quest</h2>
+    <p>Your source for the latest game reviews, news, and more!</p>
+    <a href="reviews.html" class="cta-button">Explore Reviews</a>
+    <main>
+<header><img src="logo.png" alt="Game Review"></header>
+  </main>
+  </section>
+</main>
+</body>
+</html>
+
